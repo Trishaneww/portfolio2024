@@ -1,0 +1,134 @@
+body {
+    margin:0;
+    overflow-x: hidden;
+    background: linear-gradient(45deg, #5d9f6e,#19291d,#1b2c20, #4a7655, #768cc3);
+    background-size: 300% 300%;
+    animation: color 22s ease-in-out infinite;
+    font-family: "Roboto", sans-serif;
+}
+
+.homepage {
+    color:white;
+
+    &-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        margin:10rem 0 0 0;
+
+        &-title {
+            color:rgb(135, 217, 190);
+            font-size: 120px;
+            font-weight: 800;
+            margin:0;
+        }
+    }
+
+    &-projectsContainer {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        gap:4rem;
+        flex-wrap: wrap;
+        margin:10rem 0 0 0;
+
+        &-project {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: center;
+            width:550px;
+            height:500px;
+            background-color: rgb(253, 97, 97);
+            border-radius: 50px;
+            overflow: hidden;
+            color:black;
+            transition: 200ms;
+
+            &:hover {
+                cursor:pointer;
+            }
+
+            &-header {
+                display:flex;
+                flex-direction: column;
+                align-items: flex-end;
+                margin:6rem 4rem 0rem 1rem;
+                font-size: 40px;
+                font-weight: 700;
+
+                &-title {
+                    font-family: "Quicksand", sans-serif;
+                    font-size: 20px;
+                    font-weight: 400;
+                    margin:0;
+                    height:0px;
+                }
+            }
+
+            & img {
+                margin-top: 0px;
+                height:400px;
+                width: 90%;
+            }
+        }
+    }
+
+    &-progressContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        margin:10rem 0 0 0;
+
+        &-title {
+            color:rgb(135, 217, 190);
+            font-size: 120px;
+            font-weight: 800;
+            margin:0;
+        }
+    }
+}
+
+
+
+
+@keyframes color {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+#studyHive {
+    width: 1000px;
+    background-color: rgb(97, 214, 253);
+}
+
+#yaSolutions {
+    width: 1000px;
+    background-color: rgb(196, 97, 253);
+}
+
+#foodbyte {
+    width: 1000px;
+    background-color: rgb(255, 255, 255);
+}
+
+#cater {
+    background-color: black;
+    color:white
+}
+
+#digitalWealth {
+    background-color: rgb(253, 191, 97);
+}
+
