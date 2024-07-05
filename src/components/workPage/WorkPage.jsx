@@ -33,6 +33,16 @@ const WorkPage = () => {
                         <img src={Logo1} alt="logo 1" />
                     </div>
                 </div>
+
+                <div className="workPage-projectsContainer-section-project">
+                    <div className="workPage-projectsContainer-section-project-info">
+                        <p className="workPage-projectsContainer-section-project-info-title">FoodByte</p>
+                        <p>Streamlined food ordering service to make food proccessing quicker</p>
+                    </div>
+                    <div className="workPage-projectsContainer-section-project-image">
+                        <img src={Logo1} alt="logo 1" />
+                    </div>
+                </div>
             </div>
 
             <div className="workPage-projectsContainer-section">
