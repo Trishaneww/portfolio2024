@@ -4,7 +4,6 @@
 @use "../../styles/partials/paddings" as *;
 
 .workPage {
-    color:white;
 
     &-header {
         display: flex;
@@ -16,7 +15,7 @@
     
         &-title {
             font-family: "Oleo Script", system-ui;
-            color:rgb(135, 217, 190);
+            color:rgb(1, 69, 47);
             font-size: 120px;
             font-weight: 800;
             margin:0;
@@ -41,10 +40,9 @@
                 display:flex;
                 justify-content: space-between;
                 align-items: center;
-                color:white;
                 width:420px;
                 height:150px;
-                background-color: rgba(251, 251, 251, 0.049);
+                background-color: rgba(251, 251, 251, 0.665);
                 padding:1rem 3rem;
                 border-radius: 10px;
                 border: 0.2px solid rgba(255, 255, 255, 0.177);
@@ -61,7 +59,7 @@
 
                     &-title {
                         font-size: 24px;
-                        color:rgb(135, 217, 190);
+                        color:rgb(1, 69, 47);
                         font-weight: 6g00;
                     }
                 }
@@ -73,7 +71,7 @@
                     height: 90px;
                     width: 100px;
                     border-radius: 50%;
-                    background-color: rgb(55, 55, 55);
+                    background-color: rgb(255, 211, 254);
                     border: 0.2px solid rgba(255, 255, 255, 0.212);
                 }
 

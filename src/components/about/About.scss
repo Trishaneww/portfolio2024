@@ -2,3 +2,37 @@
 @use "../../styles/partials/variables" as *;
 @use "../../styles//partials/colors" as *;
 @use "../../styles/partials/paddings" as *;
+
+.aboutPage {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10rem 0 0 0;
+
+    &-title {
+        font-family: "Oleo Script", system-ui;
+        color:rgb(135, 217, 190);
+        font-size: 120px;
+        font-weight: 800;
+        margin:0;
+    }
+
+    &-bio {
+        display:flex;
+        flex-direction: column;
+        width: 700px;
+
+        &-title {
+            font-family: "Oleo Script", system-ui;
+            color:rgb(135, 217, 190);
+            font-size: 50px;
+            font-weight: 800;
+            margin:0;
+        }
+
+        &-description {
+            color:white;
+        }
+    }
+}
