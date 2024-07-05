@@ -1,4 +1,6 @@
-.workpage {
+.workPage {
+    color:white;
+
     &-header {
         display: flex;
         flex-direction: column;
@@ -14,4 +16,60 @@
             margin:0;
         }
     }
+
+    &-projectsContainer {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        gap:2rem;
+
+        &-section {
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 3rem;
+
+            &-project {
+                display:flex;
+                justify-content: space-between;
+                align-items: center;
+                color:white;
+                width:480px;
+                height:150px;
+                background-color: rgba(251, 251, 251, 0.049);
+                padding:1rem;
+                border-radius: 10px;
+                border: 0.2px solid rgba(255, 255, 255, 0.177);
+
+                &-info {
+                    width: 360px;
+
+                    &-title {
+                        font-size: 24px;
+                        color:rgb(135, 217, 190);
+                        font-weight: 500;
+                    }
+                }
+
+
+                &-image {
+                    display:flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 100px;
+                    width: 100px;
+                    border-radius: 50%;
+                    background-color: rgb(55, 55, 55);
+                    border: 0.2px solid rgba(255, 255, 255, 0.212);
+                }
+
+                & img {
+                    width: 100%;
+                }
+            }
+        }
+    }
 }
+
+

@@ -1,0 +1,28 @@
+@use "./partials/mixins" as *;
+@use "./partials/variables" as *;
+@use "./partials/colors" as *;
+@use "./partials/paddings" as *;
+
+body {
+    margin:0;
+    overflow-x: hidden;
+    background: linear-gradient(45deg, #5d9f6e,#19291d,#1b2c20, #4a7655, #768cc3);
+    background-size: 300% 300%;
+    animation: color 22s ease-in-out infinite;
+    font-family: "Roboto", sans-serif;
+}
+
+@keyframes color {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+
+
