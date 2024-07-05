@@ -1,3 +1,8 @@
+@use "../../styles/partials//mixins" as *;
+@use "../../styles/partials/variables" as *;
+@use "../../styles//partials/colors" as *;
+@use "../../styles/partials/paddings" as *;
+
 .navbar {
     display:flex;
     justify-content: center;

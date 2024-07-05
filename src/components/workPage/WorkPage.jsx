@@ -1,6 +1,7 @@
 import Navbar from '../navbar/Navbar';
 import './WorkPage.scss';
 import Logo1 from '../../images/foodbyte-logo.png';
+import Image1 from '../../images/studyhive1.png';
 
 
 const WorkPage = () => {
@@ -46,14 +47,12 @@ const WorkPage = () => {
             </div>
 
             <div className="workPage-projectsContainer-section">
-                <div className="workPage-projectsContainer-section-project" id="large">
+                <div className="workPage-projectsContainer-section-projectLarge">
                     <div className="workPage-projectsContainer-section-project-info">
                         <p className="workPage-projectsContainer-section-project-info-title">FoodByte</p>
                         <p>Streamlined food ordering service to make food proccessing quicker</p>
                     </div>
-                    <div className="workPage-projectsContainer-section-project-image">
-                        <img src={Logo1} alt="logo 1" />
-                    </div>
+                    <img src={Image1} alt="logo 1" />
                 </div>
 
                 <div className="workPage-projectsContainer-section-project">
@@ -78,18 +77,15 @@ const WorkPage = () => {
                     </div>
                 </div>
 
-                <div className="workPage-projectsContainer-section-project"  id="large">
+                <div className="workPage-projectsContainer-section-projectLarge">
                     <div className="workPage-projectsContainer-section-project-info">
                         <p className="workPage-projectsContainer-section-project-info-title">FoodByte</p>
                         <p>Streamlined food ordering service to make food proccessing quicker</p>
                     </div>
-                    <div className="workPage-projectsContainer-section-project-image">
-                        <img src={Logo1} alt="logo 1" />
-                    </div>
+                    <img src={Image1} alt="logo 1" />
                 </div>
             </div>
         </section>
-
     </div>
   )
 }

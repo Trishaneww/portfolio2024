@@ -1,3 +1,8 @@
+@use "../../styles/partials//mixins" as *;
+@use "../../styles/partials/variables" as *;
+@use "../../styles//partials/colors" as *;
+@use "../../styles/partials/paddings" as *;
+
 .homepage {
     color:white;
 
@@ -10,6 +15,7 @@
         margin:10rem 0 0 0;
 
         &-title {
+            font-family: "Oleo Script", system-ui;
             color:rgb(135, 217, 190);
             font-size: 120px;
             font-weight: 800;
