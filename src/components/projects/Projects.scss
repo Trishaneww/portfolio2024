@@ -1,0 +1,20 @@
+.projectPage {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    &-title {
+        font-family: "Oleo Script", system-ui;
+        color:rgb(1, 69, 47);
+        font-size: 120px;
+        font-weight: 800;
+        margin:7rem 0 2rem 0;
+    }
+
+    & img {
+        width: 65%;
+    }
+
+}
