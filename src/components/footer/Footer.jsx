@@ -2,20 +2,43 @@ import './Footer.scss'
 
 const Footer = () => {
   return (
-    <div>
+    <div className="footer">
       <div>
-        <p>@2024 Trishane Wijeyawickrema</p>
+        <p>@ 2024 Trishane Wijeyawickrema</p>
       </div>
 
-      <div>
-        <p>Elsewhere</p>
-        <ul>
-          <li>
-            <a href="">Github</a>
-            <a href="">Linkedin</a>
-          </li>
-        </ul>
+      <div className="footer-contact">
+        <div className="footer-contact-section">
+          <p>Elsewhere</p>
+          <ul className="footer-contact-list">
+            <li>
+              <a href="">Github</a>
+            </li>
+            <li>
+              <a href="">Linkedin</a>
+            </li>
+            <li>
+              <a href="">Dribble</a>
+            </li>
+            <li>
+              <a href="">Email</a>
+            </li>
+            <li>
+              <a href="">Figma</a>
+            </li>
+          </ul>
+        </div>
+
+        <div className="footer-contact-section">
+          <p>Contact</p>
+          <ul className="footer-contact-list">
+            <li>
+              <a href="">Email</a>
+            </li>
+          </ul>
+        </div>
       </div>
+
     </div>
   )
 }

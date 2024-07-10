@@ -42,10 +42,11 @@
                 align-items: center;
                 width:420px;
                 height:150px;
-                background-color: rgba(251, 251, 251, 0.665);
+                border:none;
+                background: rgba(255, 255, 255, 0.286);
+                backdrop-filter: blur(10px) saturate(1.5);
                 padding:1rem 3rem;
                 border-radius: 10px;
-                border: 0.2px solid rgba(255, 255, 255, 0.177);
                 line-height: 1.8rem;
                 transition: transform 500ms;
 

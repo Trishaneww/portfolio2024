@@ -1,5 +1,6 @@
 import './Homepage.scss';
 import Navbar from '../navbar/Navbar';
+import Footer from '../footer/Footer';
 import Image1 from '../../images/image1.png';
 import Image2 from '../../images/image2.png';
 
@@ -8,11 +9,10 @@ const Homepage = () => {
     <div className="homepage">
         <Navbar/>
         <div className="homepage-header">
-            <p className="homepage-header-title">Hi. I'm Trishane</p>
-            <p className="homepage-header-title">A Software Developer</p>
+            <p className="homepage-header-title">Hi. I'm Trishane.</p>
+            <p className="homepage-header-title">A Software Developer.</p>
             <p>I'm passionate about crafting experiences that are engaging, accessible, and user-centric.</p>
         </div>
-
 
         <section className="homepage-projectsContainer">
             <div className="homepage-projectsContainer-project">
@@ -72,6 +72,8 @@ const Homepage = () => {
                 </div>
             </div>
         </section>
+
+        <Footer />
 
     </div>
   )
