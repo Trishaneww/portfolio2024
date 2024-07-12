@@ -1,4 +1,5 @@
 import './Homepage.scss';
+import { Link } from 'react-router-dom';
 import Image1 from '../../images/image1.png';
 import Image2 from '../../images/image2.png';
 
@@ -12,21 +13,25 @@ const Homepage = () => {
         </div>
 
         <section className="homepage-projectsContainer">
-            <div className="homepage-projectsContainer-project">
-                <div className="homepage-projectsContainer-project-header">
-                    <p className="homepage-projectsContainer-project-header-title">Corporate</p>
-                    <p>YaSolutions</p>
+            <Link className="link" to="/projects/yasolutions">
+                <div className="homepage-projectsContainer-project">
+                    <div className="homepage-projectsContainer-project-header">
+                        <p className="homepage-projectsContainer-project-header-title">Corporate</p>
+                        <p>YaSolutions</p>
+                    </div>
+                    <img src={Image1} alt="first image"/>
                 </div>
-                <img src={Image1} alt="first image"/>
-            </div>
+            </Link>
 
-            <div className="homepage-projectsContainer-project" id="studyHive">
-                <div className="homepage-projectsContainer-project-header">
-                    <p className="homepage-projectsContainer-project-header-title">Education</p>
-                    <p>Study Hive</p>
+            <Link className="link" to="/projects/studyhive">
+                <div className="homepage-projectsContainer-project" id="studyHive">
+                    <div className="homepage-projectsContainer-project-header">
+                        <p className="homepage-projectsContainer-project-header-title">Education</p>
+                        <p>Study Hive</p>
+                    </div>
+                    <img src={Image2} alt="first image"/>
                 </div>
-                <img src={Image2} alt="first image"/>
-            </div>
+            </Link>
 
             <div className="homepage-projectsContainer-project" id="yaSolutions">
                 <div className="homepage-projectsContainer-project-header">
