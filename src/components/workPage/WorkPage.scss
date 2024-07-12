@@ -40,10 +40,10 @@
                 display:flex;
                 justify-content: space-between;
                 align-items: center;
-                width:420px;
+                width:450px;
                 height:150px;
                 border:none;
-                background: rgba(255, 255, 255, 0.286);
+                background: rgba(255, 255, 255, 0.332);
                 backdrop-filter: blur(10px) saturate(1.5);
                 padding:1rem 3rem;
                 border-radius: 10px;
@@ -59,9 +59,9 @@
                     width: 360px;
 
                     &-title {
-                        font-size: 24px;
-                        color:rgb(1, 69, 47);
-                        font-weight: 6g00;
+                        font-size: 20px;
+                        color:rgb(0, 0, 0);
+                        font-weight: 600;
                     }
                 }
 
@@ -74,10 +74,12 @@
                     border-radius: 50%;
                     background-color: rgb(255, 211, 254);
                     border: 0.2px solid rgba(255, 255, 255, 0.212);
+                    overflow:hidden;
                 }
 
                 & img {
-                    width: 100%;
+                    width: 140%;
+                    height: 100%;
                 }
             }
 

@@ -1,13 +1,10 @@
 import './Homepage.scss';
-import Navbar from '../navbar/Navbar';
-import Footer from '../footer/Footer';
 import Image1 from '../../images/image1.png';
 import Image2 from '../../images/image2.png';
 
 const Homepage = () => {
   return (
     <div className="homepage">
-        <Navbar/>
         <div className="homepage-header">
             <p className="homepage-header-title">Hi. I'm Trishane.</p>
             <p className="homepage-header-title">A Software Developer.</p>
@@ -17,8 +14,8 @@ const Homepage = () => {
         <section className="homepage-projectsContainer">
             <div className="homepage-projectsContainer-project">
                 <div className="homepage-projectsContainer-project-header">
-                    <p className="homepage-projectsContainer-project-header-title">Education</p>
-                    <p>Study Hive</p>
+                    <p className="homepage-projectsContainer-project-header-title">Corporate</p>
+                    <p>YaSolutions</p>
                 </div>
                 <img src={Image1} alt="first image"/>
             </div>
@@ -33,8 +30,8 @@ const Homepage = () => {
 
             <div className="homepage-projectsContainer-project" id="yaSolutions">
                 <div className="homepage-projectsContainer-project-header">
-                    <p className="homepage-projectsContainer-project-header-title">Education</p>
-                    <p>Study Hive</p>
+                    <p className="homepage-projectsContainer-project-header-title">Corporate</p>
+                    <p>PrimeTort Leads</p>
                 </div>
                 <img src={Image2} alt="first image"/>
             </div>
@@ -72,9 +69,6 @@ const Homepage = () => {
                 </div>
             </div>
         </section>
-
-        <Footer />
-
     </div>
   )
 }

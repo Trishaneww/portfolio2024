@@ -10,7 +10,6 @@ import Image7 from '../../images/foodbyte7.png';
 const Foodbyte = () => {
   return (
     <div>
-        <Navbar />
         <div className="projectPage">
             <p className="projectPage-title">Foodbyte</p>
             <img src={Image7} alt="preview image" />

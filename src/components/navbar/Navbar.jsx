@@ -21,7 +21,7 @@ const Navbar = () => {
         </li>
 
         <li className={location.pathname === "/notes" ? "navbar-active" : ""}>
-          <a href="/notes">Notes</a>
+          <a href="/notes">Resume</a>
         </li>
 
         <li className={location.pathname === "/contact" ? "navbar-active" : ""}>

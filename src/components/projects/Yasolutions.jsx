@@ -12,7 +12,7 @@ const Yasolutions = () => {
     <div>
         <Navbar />
         <div className="projectPage">
-            <p className="projectPage-title">Foodbyte</p>
+            <p className="projectPage-title">YaSolutions</p>
             <img src={Image7} alt="preview image" />
 
             <section className="projectPage-gallery1">
