@@ -10,6 +10,11 @@
     gap: 1rem;
     list-style: none;
     margin: 3rem 0 0 0;
+    padding:0;
+
+    @include phone {
+        gap:0.7rem;
+    }
 
     & a {
         text-decoration: none;
@@ -21,6 +26,12 @@
         height: 40px;
         border-radius: 50px;
         transition: 200ms;
+        color:rgb(0, 0, 0);
+
+        @include phone {
+            font-size:14px;
+            width:65px;
+        }
     }
 
     &-active {
@@ -37,5 +48,10 @@
         transition: 200ms;
         background: rgba(255, 255, 255, 0.475);
         backdrop-filter: blur(10px) saturate(1.3);
+
+        @include phone {
+            font-size:12px;
+            width:65px;
+        }
     }
 }

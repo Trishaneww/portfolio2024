@@ -2,9 +2,10 @@ import './Footer.scss'
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <div className="footer-page">
+      <div className="footer">
       <div>
-        <p>@ 2024 Trishane Wijeyawickrema</p>
+        <p className="footer-trishane">@ 2024 Trishane Wijeyawickrema</p>
       </div>
 
       <div className="footer-contact">
@@ -39,6 +40,8 @@ const Footer = () => {
         </div>
       </div>
 
+
+      </div>
     </div>
   )
 }

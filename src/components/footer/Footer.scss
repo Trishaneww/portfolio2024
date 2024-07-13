@@ -3,11 +3,44 @@
 @use "../../styles//partials/colors" as *;
 @use "../../styles/partials/paddings" as *;
 
+
+.footer-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @include phone {
+        justify-content: flex-start;
+    }
+}
+
+
 .footer {
     display:flex;
-    justify-content: space-between;
-    padding: 10rem 25rem 2rem 25rem;
+    justify-content: center;
+    gap:8rem;
+    padding: 10rem 2rem 2rem 2rem;
     font-size: 18px;
+
+    @include tablet {
+        font-size: 14px;
+        margin:0 0 0 0;
+        gap:2rem;
+    }
+
+    @include phone {
+        padding:0;
+        font-size: 14px;
+        margin:30% 0 0 0;
+    }
+
+    &-trishane {
+
+        @include phone {
+            display:none;
+            margin:0;
+        }
+    }
 
     &-contact {
         display:flex;

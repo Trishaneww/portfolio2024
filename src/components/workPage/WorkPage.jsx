@@ -17,77 +17,65 @@ const WorkPage = () => {
         </div>
 
         <section className="workPage-projectsContainer">
-            <div className="workPage-projectsContainer-section">
-                <div className="workPage-projectsContainer-section-project">
-                    <div className="workPage-projectsContainer-section-project-info">
-                        <p className="workPage-projectsContainer-section-project-info-title">FoodByte</p>
+                <div className="workPage-projectsContainer-project">
+                    <div className="workPage-projectsContainer-project-info">
+                        <p className="workPage-projectsContainer-project-info-title">FoodByte</p>
                         <p>Streamlined food ordering service to make food proccessing quicker</p>
                     </div>
-                    <div className="workPage-projectsContainer-section-project-image">
+                    <div className="workPage-projectsContainer-project-image">
                         <img src={Foodbyte} alt="logo 1" />
                     </div>
                 </div>
 
-                <div className="workPage-projectsContainer-section-project">
-                    <div className="workPage-projectsContainer-section-project-info">
-                        <p className="workPage-projectsContainer-section-project-info-title">YaSolutions</p>
+                <div className="workPage-projectsContainer-project">
+                    <div className="workPage-projectsContainer-project-info">
+                        <p className="workPage-projectsContainer-project-info-title">YaSolutions</p>
                         <p>Streamlined food ordering service to make food proccessing quicker</p>
                     </div>
-                    <div className="workPage-projectsContainer-section-project-image">
+                    <div className="workPage-projectsContainer-project-image">
                         <img src={YaSolutions} alt="logo 1" />
                     </div>
                 </div>
 
-                <div className="workPage-projectsContainer-section-project">
-                    <div className="workPage-projectsContainer-section-project-info">
-                        <p className="workPage-projectsContainer-section-project-info-title">PrimeTort Leads</p>
+                <div className="workPage-projectsContainer-project">
+                    <div className="workPage-projectsContainer-project-info">
+                        <p className="workPage-projectsContainer-project-info-title">PrimeTort Leads</p>
                         <p>Streamlined food ordering service to make food proccessing quicker</p>
                     </div>
-                    <div className="workPage-projectsContainer-section-project-image">
+                    <div className="workPage-projectsContainer-project-image">
                         <img src={PrimeTort} alt="logo 1" />
                     </div>
                 </div>
-            </div>
 
-            <div className="workPage-projectsContainer-section">
-                <div className="workPage-projectsContainer-section-projectLarge">
-                    <div className="workPage-projectsContainer-section-project-info">
-                        <p className="workPage-projectsContainer-section-project-info-title">StudyHive</p>
+                <div className="workPage-projectsContainer-project">
+                    <div className="workPage-projectsContainer-project-info">
+                        <p className="workPage-projectsContainer-project-info-title">PrimeTort Leads</p>
                         <p>Streamlined food ordering service to make food proccessing quicker</p>
                     </div>
-                    <img src={Image1} alt="logo 1" />
-                </div>
-
-                <div className="workPage-projectsContainer-section-project">
-                    <div className="workPage-projectsContainer-section-project-info">
-                        <p className="workPage-projectsContainer-section-project-info-title">FoodByte</p>
-                        <p>Streamlined food ordering service to make food proccessing quicker</p>
-                    </div>
-                    <div className="workPage-projectsContainer-section-project-image">
-                        <img src={Foodbyte} alt="logo 1" />
-                    </div>
-                </div>
-            </div>
-
-            <div className="workPage-projectsContainer-section">
-                <div className="workPage-projectsContainer-section-project">
-                    <div className="workPage-projectsContainer-section-project-info">
-                        <p className="workPage-projectsContainer-section-project-info-title">FoodByte</p>
-                        <p>Streamlined food ordering service to make food proccessing quicker</p>
-                    </div>
-                    <div className="workPage-projectsContainer-section-project-image">
-                        <img src={Foodbyte} alt="logo 1" />
+                    <div className="workPage-projectsContainer-project-image">
+                        <img src={PrimeTort} alt="logo 1" />
                     </div>
                 </div>
 
-                <div className="workPage-projectsContainer-section-projectLarge">
-                    <div className="workPage-projectsContainer-section-project-info">
-                        <p className="workPage-projectsContainer-section-project-info-title">FoodByte</p>
+                <div className="workPage-projectsContainer-project">
+                    <div className="workPage-projectsContainer-project-info">
+                        <p className="workPage-projectsContainer-project-info-title">PrimeTort Leads</p>
                         <p>Streamlined food ordering service to make food proccessing quicker</p>
                     </div>
-                    <img src={Image2} alt="logo 1" />
+                    <div className="workPage-projectsContainer-project-image">
+                        <img src={PrimeTort} alt="logo 1" />
+                    </div>
                 </div>
-            </div>
+
+                <div className="workPage-projectsContainer-project">
+                    <div className="workPage-projectsContainer-project-info">
+                        <p className="workPage-projectsContainer-project-info-title">PrimeTort Leads</p>
+                        <p>Streamlined food ordering service to make food proccessing quicker</p>
+                    </div>
+                    <div className="workPage-projectsContainer-project-image">
+                        <img src={PrimeTort} alt="logo 1" />
+                    </div>
+                </div>
         </section>
     </div>
   )

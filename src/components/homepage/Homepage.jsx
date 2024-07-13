@@ -2,6 +2,7 @@ import './Homepage.scss';
 import { Link } from 'react-router-dom';
 import Image1 from '../../images/image1.png';
 import Image2 from '../../images/image2.png';
+import DigitalWealth from '../../images/digitalwealth1.png';
 
 const Homepage = () => {
   return (
@@ -13,7 +14,7 @@ const Homepage = () => {
         </div>
 
         <section className="homepage-projectsContainer">
-            <Link className="link" to="/projects/yasolutions">
+            <Link className="link" to="/yasolutions">
                 <div className="homepage-projectsContainer-project">
                     <div className="homepage-projectsContainer-project-header">
                         <p className="homepage-projectsContainer-project-header-title">Corporate</p>
@@ -23,7 +24,7 @@ const Homepage = () => {
                 </div>
             </Link>
 
-            <Link className="link" to="/projects/studyhive">
+            <Link className="link" to="/studyhive">
                 <div className="homepage-projectsContainer-project" id="studyHive">
                     <div className="homepage-projectsContainer-project-header">
                         <p className="homepage-projectsContainer-project-header-title">Education</p>
@@ -33,21 +34,25 @@ const Homepage = () => {
                 </div>
             </Link>
 
-            <div className="homepage-projectsContainer-project" id="yaSolutions">
-                <div className="homepage-projectsContainer-project-header">
-                    <p className="homepage-projectsContainer-project-header-title">Corporate</p>
-                    <p>PrimeTort Leads</p>
+            <Link className="link" to="/primetort">
+                <div className="homepage-projectsContainer-project" id="yaSolutions">
+                    <div className="homepage-projectsContainer-project-header">
+                        <p className="homepage-projectsContainer-project-header-title">Corporate</p>
+                        <p>PrimeTort Leads</p>
+                    </div>
+                    <img src={Image2} alt="first image"/>
                 </div>
-                <img src={Image2} alt="first image"/>
-            </div>
+            </Link>
 
-            <div className="homepage-projectsContainer-project" id="digitalWealth">
-                <div className="homepage-projectsContainer-project-header">
-                    <p className="homepage-projectsContainer-project-header-title">Education</p>
-                    <p>Study Hive</p>
+            <Link className="link" to="/digitalwealth">
+                <div className="homepage-projectsContainer-project" id="digitalWealth">
+                    <div className="homepage-projectsContainer-project-header">
+                        <p className="homepage-projectsContainer-project-header-title">Education</p>
+                        <p>Digital Wealth</p>
+                    </div>
+                    <img src={DigitalWealth} alt="first image"/>
                 </div>
-                <img src={Image1} alt="first image"/>
-            </div>
+            </Link>
         </section>
 
         <section>
@@ -57,21 +62,25 @@ const Homepage = () => {
             </div>
 
             <div className="homepage-projectsContainer">
-                <div className="homepage-projectsContainer-project" id="foodbyte">
-                    <div className="homepage-projectsContainer-project-header">
-                        <p className="homepage-projectsContainer-project-header-title">Education</p>
-                        <p>Foodbyte</p>
+                <Link className="link" to="/foodbyte">
+                    <div className="homepage-projectsContainer-project" id="foodbyte">
+                        <div className="homepage-projectsContainer-project-header">
+                            <p className="homepage-projectsContainer-project-header-title">Education</p>
+                            <p>Foodbyte</p>
+                        </div>
+                        <img src={Image2} alt="first image"/>
                     </div>
-                    <img src={Image2} alt="first image"/>
-                </div>
+                </Link>
 
-                <div className="homepage-projectsContainer-project" id="cater">
-                    <div className="homepage-projectsContainer-project-header">
-                        <p className="homepage-projectsContainer-project-header-title">Education</p>
-                        <p>Cater</p>
+                <Link className="link">
+                    <div className="homepage-projectsContainer-project" id="cater">
+                        <div className="homepage-projectsContainer-project-header">
+                            <p className="homepage-projectsContainer-project-header-title">Education</p>
+                            <p>Cater</p>
+                        </div>
+                        <img src={Image1} alt="first image"/>
                     </div>
-                    <img src={Image1} alt="first image"/>
-                </div>
+                </Link>
             </div>
         </section>
     </div>
