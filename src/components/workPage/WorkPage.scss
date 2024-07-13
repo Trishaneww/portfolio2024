@@ -1,0 +1,118 @@
+@use "../../styles/partials//mixins" as *;
+@use "../../styles/partials/variables" as *;
+@use "../../styles//partials/colors" as *;
+@use "../../styles/partials/paddings" as *;
+
+.workPage {
+
+    &-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        margin:8rem 0 0 0;
+        padding: 0 3rem;
+        text-align: center;
+
+        @include phone {
+            padding:0 1rem;
+            font-size: 12px;
+        }
+    
+        &-title {
+            font-family: "Oleo Script", system-ui;
+            color:rgb(1, 69, 47);
+            font-size: 120px;
+            font-weight: 800;
+            margin:0;
+
+            @include phone {
+                font-size: 55px;
+            }
+
+            @include tablet {
+                font-size: 85px;
+            }
+        }
+    }
+
+    &-projectsContainer {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap:2rem;
+        margin: 3rem 0 0 0;
+        padding: 0 1rem;
+
+            &-project, &-projectLarge {
+                display:flex;
+                justify-content: space-between;
+                align-items: center;
+                width:40%;
+                max-width: 450px;
+                min-width: 380px;
+                height:150px;
+                border:none;
+                background: rgba(255, 255, 255, 0.409);
+                backdrop-filter: blur(10px) saturate(1.5);
+                padding:1rem 2rem;
+                border-radius: 10px;
+                line-height: 1.8rem;
+                transition: transform 500ms;
+
+
+                &:hover {
+                    cursor: pointer;
+                    transform: translate(0,-3%);
+                }
+
+                @include phone {
+                    width: 90%;
+                    padding:1rem 1.5rem 1rem 1.5rem;
+                    font-size: 14px;
+                    min-width: 300px;
+                }
+
+                &-info {
+                    width: 360px;
+
+                    @include phone {
+                        width: 60%;
+                    }
+
+                    &-title {
+                        font-size: 20px;
+                        color:rgb(0, 0, 0);
+                        font-weight: 600;
+
+                        @include phone {
+                            font-size: 16px;
+                        }
+                    }
+                }
+
+                &-image {
+                    display:flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 100px;
+                    width: 110px;
+                    border-radius: 50%;
+                    background-color: rgb(255, 211, 254);
+                    border: 0.2px solid rgba(255, 255, 255, 0.212);
+                    overflow:hidden;
+                }
+
+                & img {
+                    width: 140%;
+                    height: 100%;
+                }
+            }
+    }
+}
+
+#large {
+    height: 380px;
+}

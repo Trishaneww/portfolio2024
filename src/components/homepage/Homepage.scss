@@ -1,0 +1,163 @@
+@use "../../styles/partials//mixins" as *;
+@use "../../styles/partials/variables" as *;
+@use "../../styles//partials/colors" as *;
+@use "../../styles/partials/paddings" as *;
+
+.homepage {
+
+    &-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        font-size: 20px;
+        margin:50px 0 0 0;
+
+        @include phone {
+            font-size: 12px;
+        }
+
+        &-title {
+            font-family: "Oleo Script", system-ui;
+            color:rgb(1, 69, 47);
+            font-size: 120px;
+            font-weight: 800;
+            margin:0;
+
+            @include phone {
+                font-size: 35px;
+            }
+
+            @include tablet {
+                font-size: 55px;
+            }
+        }
+    }
+
+    &-projectsContainer {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        gap:4rem;
+        flex-wrap: wrap;
+        padding: 1rem 1rem;
+
+
+        &-project {
+            display: flex;
+            flex-direction: column;
+            width:550px;
+            height:500px;
+            background-color: #86e9d8;
+            border-radius: 50px;
+            overflow: hidden;
+            color:black;
+            transition: 200ms;
+            padding: 1rem 0 0 1rem;
+
+            &:hover {
+                cursor:pointer;
+            }
+
+            @include tablet {
+                width:96%;
+                height:350px;
+                border-radius: 20px;
+            }
+
+            &-header {
+                display:flex;
+                flex-direction: column;
+                align-items: flex-end;
+                margin:2rem 2rem 2rem 0rem;
+                font-size: 40px;
+                font-weight: 700;
+                height:120px;
+
+                @include phone {
+                    margin:0rem 1rem 2rem 1rem;
+                    font-size: 22px;
+                }
+
+                &-title {
+                    font-family: "Quicksand", sans-serif;
+                    font-size: 20px;
+                    font-weight: 400;
+                    margin:0;
+                    height:0px;
+
+                    @include phone {
+                        height:10px;
+                    }
+                }
+            }
+
+            & img {
+                // margin-top: 0px;
+                width: 100%;
+                height:100%;
+                margin-left:2rem;
+            }
+        }
+    }
+
+    &-progressContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        margin:10rem 1rem 0 1rem;
+        text-align: center;
+
+        @include phone {
+            font-size: 12px;
+        }
+
+        &-title {
+            font-family: "Oleo Script", system-ui;
+            color:rgb(1, 69, 47);
+            font-size: 120px;
+            font-weight: 800;
+            margin:0;
+
+            @include phone {
+                font-size: 35px;
+            }
+        }
+    }
+}
+
+.large {
+    width:1000px;
+
+    @include tablet {
+        width:96%;
+    }
+}
+
+#studyHive {
+    background-color: #cd8ede;
+}
+
+#yaSolutions {
+    background-color: #f6c6a1;
+}
+
+#foodbyte {
+    background-color: #ffffff;
+}
+
+#cater {
+    background-color: black;
+    color:white
+}
+
+#digitalWealth {
+    background-color: #b4fbf8;
+}
+
+.link {
+    text-decoration: none;
+}

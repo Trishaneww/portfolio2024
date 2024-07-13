@@ -1,0 +1,75 @@
+@use "../../styles/partials//mixins" as *;
+@use "../../styles/partials/variables" as *;
+@use "../../styles//partials/colors" as *;
+@use "../../styles/partials/paddings" as *;
+
+
+.footer-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @include phone {
+        justify-content: flex-start;
+    }
+}
+
+
+.footer {
+    display:flex;
+    justify-content: center;
+    gap:8rem;
+    padding: 10rem 2rem 2rem 2rem;
+    font-size: 18px;
+
+    @include tablet {
+        font-size: 14px;
+        margin:0 0 0 0;
+        gap:2rem;
+    }
+
+    @include phone {
+        padding:0;
+        font-size: 14px;
+        margin:30% 0 0 0;
+    }
+
+    &-trishane {
+
+        @include phone {
+            display:none;
+            margin:0;
+        }
+    }
+
+    &-contact {
+        display:flex;
+
+        &-section {
+            margin: 0 2rem;
+
+            & p {
+                font-weight: 700;
+            }
+        }
+
+        &-list {
+            list-style: none;
+            text-decoration: none;
+            line-height: 3rem;
+            margin:0;
+            padding:0;
+
+            & a {
+                text-decoration: none;
+                color:black;
+                transition: 300ms;
+
+                &:hover {
+                    cursor:pointer;
+                    color:rgb(9, 118, 12);
+                }
+            }
+        }
+    }
+}

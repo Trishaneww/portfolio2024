@@ -1,0 +1,58 @@
+@use "../../styles/partials//mixins" as *;
+@use "../../styles/partials/variables" as *;
+@use "../../styles//partials/colors" as *;
+@use "../../styles/partials/paddings" as *;
+
+.aboutPage {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10rem 0 0 0;
+
+    &-title {
+        font-family: "Oleo Script", system-ui;
+        color:rgb(0, 53, 36);
+        font-size: 120px;
+        font-weight: 800;
+        margin:0;
+    }
+
+    &-bio {
+        display:flex;
+        justify-content: center;
+        padding: 3rem 5rem;
+
+        &-headshot {
+            display:flex;
+            justify-content: center;
+            align-items: baseline;
+            width:400px;
+            height:400px;
+            border-radius: 50%;
+            overflow:hidden;
+
+            & img {
+                width:138%;
+            }
+        }
+
+        &-description {
+            width:45%;
+            margin: 0 0 0 4rem;
+
+            &-header {
+                font-family: "Oleo Script", system-ui;
+                color:rgb(0, 35, 23);
+                font-size: 50px;
+                font-weight: 800;
+                margin:0;
+            }
+    
+            &-footer {
+                font-size: 20px;
+                line-height: 2rem;
+            }
+        }
+    }
+}
