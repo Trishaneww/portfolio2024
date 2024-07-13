@@ -12,10 +12,11 @@
         align-items: center;
         font-size: 20px;
         margin:8rem 0 0 0;
-        padding: 0 1rem;
+        padding: 0 3rem;
         text-align: center;
 
         @include phone {
+            padding:0 1rem;
             font-size: 12px;
         }
     
@@ -28,7 +29,10 @@
 
             @include phone {
                 font-size: 55px;
+            }
 
+            @include tablet {
+                font-size: 85px;
             }
         }
     }
@@ -51,7 +55,7 @@
                 min-width: 380px;
                 height:150px;
                 border:none;
-                background: rgba(255, 255, 255, 0.332);
+                background: rgba(255, 255, 255, 0.409);
                 backdrop-filter: blur(10px) saturate(1.5);
                 padding:1rem 2rem;
                 border-radius: 10px;

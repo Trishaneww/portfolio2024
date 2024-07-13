@@ -6,12 +6,12 @@
 body {
     margin:0;
     overflow-x: hidden;
-    // background: linear-gradient(25deg, #f4ffe9, #f7ffef, #ffecd2, #f4ffe9, #fcd8ff, #e3ffc7);
-    background-color: rgb(232, 226, 222);
-    background-size: 300% 300%;
-    animation: color 28s ease-in-out infinite;
+    background: linear-gradient(25deg, rgb(232, 226, 222), rgb(222, 249, 241), #ffecd2, #dfffdb, #fcd8ff, #e3ffc7);
+    // background: rgb(232, 226, 222);
+    background-size:300% 300%;
+    animation: color 18s ease-in-out infinite;
     font-family: "Open Sans", sans-serif;
-    backdrop-filter: blur(10px) saturate(1.5);
+    // backdrop-filter: blur(100px);
     overflow-x:hidden;
 }
 

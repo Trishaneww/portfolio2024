@@ -1,3 +1,8 @@
+@use "../../styles/partials//mixins" as *;
+@use "../../styles/partials/variables" as *;
+@use "../../styles//partials/colors" as *;
+@use "../../styles/partials/paddings" as *;
+
 .projectPage {
     display:flex;
     flex-direction: column;
@@ -11,11 +16,20 @@
         font-size: 120px;
         font-weight: 800;
         margin:7rem 0 2rem 0;
+
+        @include phone {
+            font-size: 45px;
+        }
     }
 
     & img {
-        width: 65%;
+        width: 70%;
         border-radius: 10px;
+
+        @include tablet {
+            width:92%;
+        }
+
     }
 
     &-description1 {
@@ -25,17 +39,29 @@
         align-items: left;
         width:40%;
 
+        @include phone {
+            width: 90%;
+        }
+
         &-title {
             font-family: "Oleo Script", system-ui;
             color:rgb(1, 69, 47);
             font-size: 60px;
             font-weight: 800;
-            margin:7rem 0 2rem 0;
+            margin:7rem 0 0 0;
+
+            @include phone {
+                font-size: 25px;
+            }
         }
 
         &-paragraph {
             font-size:18px;
             line-height: 2rem;
+
+            @include phone {
+                font-size: 12px;
+            }
         }
     }
 
@@ -48,9 +74,19 @@
         margin: 3rem 0 0 0;
 
         & img {
-            width: 46%;
-            height:400px;
+            width: 38%;
+            height:100%;
             border-radius: 10px;
+
+            @include phone {
+                width:92%;
+                height:100%;
+            }
+
+            @include tablet {
+                width:43%;
+                height:100%;
+            }
         }
     }
 
@@ -59,6 +95,10 @@
             height:auto;
             width: 79%;
             border-radius: 10px;
+
+            @include tablet {
+                width:92%;
+            }
         }
     }
 
@@ -67,6 +107,14 @@
             height:auto;
             width: 29%;
             border-radius: 10px;
+
+            @include phone {
+                width:20%;
+            }
+
+            @include tablet {
+                width:28%;
+            }
         }
     }
 
@@ -80,12 +128,21 @@
         margin:7rem 0 2rem 0;
         transition: transform 600ms;
 
+        @include tablet {
+            width:330px;
+            height:150px;
+        }
+
         & a {
             font-family: "Oleo Script", system-ui;
             color:rgb(1, 69, 47);
             font-size: 120px;
             font-weight: 800;
             text-decoration: none;
+
+            @include tablet {
+                font-size: 45px;
+            }
         }
 
         &:hover {

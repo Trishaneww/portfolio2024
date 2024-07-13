@@ -25,7 +25,7 @@ const Homepage = () => {
             </Link>
 
             <Link className="link" to="/studyhive">
-                <div className="homepage-projectsContainer-project" id="studyHive">
+                <div className="homepage-projectsContainer-project large" id="studyHive">
                     <div className="homepage-projectsContainer-project-header">
                         <p className="homepage-projectsContainer-project-header-title">Education</p>
                         <p>Study Hive</p>
@@ -35,7 +35,7 @@ const Homepage = () => {
             </Link>
 
             <Link className="link" to="/primetort">
-                <div className="homepage-projectsContainer-project" id="yaSolutions">
+                <div className="homepage-projectsContainer-project large" id="yaSolutions">
                     <div className="homepage-projectsContainer-project-header">
                         <p className="homepage-projectsContainer-project-header-title">Corporate</p>
                         <p>PrimeTort Leads</p>
@@ -63,7 +63,7 @@ const Homepage = () => {
 
             <div className="homepage-projectsContainer">
                 <Link className="link" to="/foodbyte">
-                    <div className="homepage-projectsContainer-project" id="foodbyte">
+                    <div className="homepage-projectsContainer-project large" id="foodbyte">
                         <div className="homepage-projectsContainer-project-header">
                             <p className="homepage-projectsContainer-project-header-title">Education</p>
                             <p>Foodbyte</p>

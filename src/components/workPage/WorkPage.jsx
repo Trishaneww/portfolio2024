@@ -4,7 +4,9 @@ import Image2 from '../../images/foodbyte8.png';
 import Foodbyte from '../../images/foodbyte-logo.png';
 import PrimeTort from '../../images/primetort.png';
 import StudyHive from '../../images/studyhive-logo.png';
+import DigitalWealth from '../../images/digitalwealth-logo.png'
 import YaSolutions from '../../images/yasolutionslogo2.png';
+import Joe from '../../images/joe-logo.png';
 
 
 
@@ -39,11 +41,21 @@ const WorkPage = () => {
 
                 <div className="workPage-projectsContainer-project">
                     <div className="workPage-projectsContainer-project-info">
-                        <p className="workPage-projectsContainer-project-info-title">PrimeTort Leads</p>
+                        <p className="workPage-projectsContainer-project-info-title">StudyHive</p>
                         <p>Streamlined food ordering service to make food proccessing quicker</p>
                     </div>
                     <div className="workPage-projectsContainer-project-image">
-                        <img src={PrimeTort} alt="logo 1" />
+                        <img src={StudyHive} alt="logo 1" />
+                    </div>
+                </div>
+
+                <div className="workPage-projectsContainer-project">
+                    <div className="workPage-projectsContainer-project-info">
+                        <p className="workPage-projectsContainer-project-info-title">Digital Wealth</p>
+                        <p>Streamlined food ordering service to make food proccessing quicker</p>
+                    </div>
+                    <div className="workPage-projectsContainer-project-image">
+                        <img src={DigitalWealth} alt="logo 1" />
                     </div>
                 </div>
 
@@ -59,21 +71,11 @@ const WorkPage = () => {
 
                 <div className="workPage-projectsContainer-project">
                     <div className="workPage-projectsContainer-project-info">
-                        <p className="workPage-projectsContainer-project-info-title">PrimeTort Leads</p>
+                        <p className="workPage-projectsContainer-project-info-title">WhyNotMe</p>
                         <p>Streamlined food ordering service to make food proccessing quicker</p>
                     </div>
                     <div className="workPage-projectsContainer-project-image">
-                        <img src={PrimeTort} alt="logo 1" />
-                    </div>
-                </div>
-
-                <div className="workPage-projectsContainer-project">
-                    <div className="workPage-projectsContainer-project-info">
-                        <p className="workPage-projectsContainer-project-info-title">PrimeTort Leads</p>
-                        <p>Streamlined food ordering service to make food proccessing quicker</p>
-                    </div>
-                    <div className="workPage-projectsContainer-project-image">
-                        <img src={PrimeTort} alt="logo 1" />
+                        <img src={Joe} alt="logo 1" />
                     </div>
                 </div>
         </section>
